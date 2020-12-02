@@ -1,0 +1,56 @@
+﻿<Window x:Class="SudokuScylla.NewGameWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SudokuScylla"
+        mc:Ignorable="d"
+        Title="NEW GAME" Height="1050" Width="720">
+
+    <Grid>
+
+        <Viewbox Grid.Column="0" Grid.Row="0" Stretch="Uniform" Margin="0,-50,0,50">
+            <Grid x:Name="SudokuGrid" Width="200" Height="200" Background="{DynamicResource {x:Static SystemColors.ActiveBorderBrushKey}}" >
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition />
+                    <ColumnDefinition />
+                    <ColumnDefinition />
+                    <ColumnDefinition />
+                    <ColumnDefinition />
+                    <ColumnDefinition />
+                    <ColumnDefinition />
+                    <ColumnDefinition />
+                    <ColumnDefinition />
+                </Grid.ColumnDefinitions>
+
+                <Grid.RowDefinitions>
+                    <RowDefinition />
+                    <RowDefinition />
+                    <RowDefinition />
+                    <RowDefinition />
+                    <RowDefinition />
+                    <RowDefinition />
+                    <RowDefinition />
+                    <RowDefinition />
+                    <RowDefinition />
+                </Grid.RowDefinitions>
+            </Grid>
+        </Viewbox>
+
+        <Button Name="BackBtn" Click="BackBtn_Click" Content="BACK" HorizontalAlignment="Left" Margin="10,926,0,0" VerticalAlignment="Top" Width="225" Height="43"/>
+        <Button Name="HintBtn" Click="HintBtn_Click" Content="HINT" HorizontalAlignment="Right" Margin="0,926,240,0" VerticalAlignment="Top" Width="232" Height="43" RenderTransformOrigin="0.5,0.5"/>
+        <Button Name="PauseBtn" Click="PauseBtn_Click" Content="PAUSE" HorizontalAlignment="Left" Margin="477,926,0,0" VerticalAlignment="Top" Width="225" Height="43"/>
+        <Button x:Name="No1Btn"  Click="No1Btn_Click" Content="1" HorizontalAlignment="Left" Margin="0,842,0,0" VerticalAlignment="Top" Width="75" Height="50"/>
+        <Button x:Name="No2Btn"  Click="No2Btn_Click" Content="2" HorizontalAlignment="Left" Margin="80,842,0,0" VerticalAlignment="Top" Width="75" Height="50"/>
+        <Button x:Name="No3Btn"  Click="No3Btn_Click" Content="3" HorizontalAlignment="Left" Margin="160,842,0,0" VerticalAlignment="Top" Width="75" Height="50"/>
+        <Button x:Name="No4Btn"  Click="No4Btn_Click" Content="4" HorizontalAlignment="Left" Margin="240,842,0,0" VerticalAlignment="Top" Width="75" Height="50"/>
+        <Button x:Name="No5Btn"  Click="No5Btn_Click" Content="5" HorizontalAlignment="Left" Margin="320,842,0,0" VerticalAlignment="Top" Width="75" Height="50"/>
+        <Button x:Name="No6Btn"  Click="No6Btn_Click" Content="6" HorizontalAlignment="Left" Margin="400,842,0,0" VerticalAlignment="Top" Width="75" Height="50"/>
+        <Button x:Name="No7Btn"  Click="No7Btn_Click" Content="7" HorizontalAlignment="Left" Margin="477,842,0,0" VerticalAlignment="Top" Width="75" Height="50"/>
+        <Button x:Name="No8Btn"  Click="No8Btn_Click" Content="8" HorizontalAlignment="Left" Margin="557,842,0,0" VerticalAlignment="Top" Width="75" Height="50"/>
+        <Button x:Name="No9Btn"  Click="No9Btn_Click" Content="9" HorizontalAlignment="Left" Margin="637,842,0,0" VerticalAlignment="Top" Width="75" Height="50"/>
+
+    </Grid>
+
+</Window>

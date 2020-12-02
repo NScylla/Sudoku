@@ -1,0 +1,17 @@
+﻿<Window x:Class="SudokuScylla.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SudokuScylla"
+        mc:Ignorable="d"
+        Title="SUDOKU" Height="683.103" Width="579.363" Background="{DynamicResource {x:Static SystemColors.GradientInactiveCaptionBrushKey}}">
+    <Grid>
+        <Button Name="BtnNew" Content="NEW GAME" Click="BtnNew_Click" Margin="75,101,0,0" Width="448" Height="37" VerticalAlignment="Top" HorizontalAlignment="Left" FontFamily="Yu Gothic UI Semibold" FontSize="20" Background="#FFB0C4EE" BorderBrush="#FFB0C4EE" Foreground="#FF0E0E0E" OpacityMask="{DynamicResource {x:Static SystemColors.MenuHighlightBrushKey}}"/>
+        <Button Name="BtnScores" Content="SCORES" Click="BtnScores_Click" Margin="75,212,0,0" Width="448" Height="37" VerticalAlignment="Top" HorizontalAlignment="Left" FontFamily="Yu Gothic UI Semibold" FontSize="20" Background="#FFB0C4EE" BorderBrush="#FFB0C4EE" Foreground="#FF0E0E0E" OpacityMask="{DynamicResource {x:Static SystemColors.MenuHighlightBrushKey}}"/>
+        <Button Name="BtnOpt" Content="OPTIONS" Click="BtnOpt_Click" Margin="75,319,0,0" Width="448" Height="37" VerticalAlignment="Top" HorizontalAlignment="Left" FontFamily="Yu Gothic UI Semibold" FontSize="20" Background="#FFB0C4EE" BorderBrush="#FFB0C4EE" Foreground="#FF0E0E0E" OpacityMask="{DynamicResource {x:Static SystemColors.MenuHighlightBrushKey}}"/>
+        <Button Name="BtnHelp" Content="HELP" Click="BtnHelp_Click" Margin="75,433,0,0" Width="448" Height="37" VerticalAlignment="Top" HorizontalAlignment="Left" FontFamily="Yu Gothic UI Semibold" FontSize="20" Background="#FFB0C4EE" BorderBrush="#FFB0C4EE" Foreground="#FF0E0E0E" OpacityMask="{DynamicResource {x:Static SystemColors.MenuHighlightBrushKey}}"/>
+        <Button Name="BtnAbout" Content="ABOUT" Click="BtnAbout_Click" Margin="75,541,0,0" Width="448" Height="37" VerticalAlignment="Top" HorizontalAlignment="Left" FontFamily="Yu Gothic UI Semibold" FontSize="20" Background="#FFB0C4EE" BorderBrush="#FFB0C4EE" Foreground="#FF0E0E0E" OpacityMask="{DynamicResource {x:Static SystemColors.MenuHighlightBrushKey}}"/>
+
+    </Grid>
+</Window>

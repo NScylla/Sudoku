@@ -1,0 +1,16 @@
+﻿<Window x:Class="SudokuScylla.LevelWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SudokuScylla"
+        mc:Ignorable="d"
+         Title="CHOOSE LEVEL" Height="683.103" Width="579.363" Background="{DynamicResource {x:Static SystemColors.GradientInactiveCaptionBrushKey}}">
+    <Grid>
+        <Button Name="EasyBtn" Click="EasyBtn_Click" Content="EASY" HorizontalAlignment="Left" Margin="86,59,0,0" VerticalAlignment="Top" Width="406" FontWeight="Bold" FontSize="16" Height="36"/>
+        <Button Name="MediumBtn" Click="MediumBtn_Click" Content="MEDIUM" HorizontalAlignment="Left" Margin="86,117,0,0" VerticalAlignment="Top" Width="406" FontWeight="Bold" FontSize="16" Height="36"/>
+        <Button Name="HardBtn" Click="HardBtn_Click" Content="HARD" HorizontalAlignment="Left" Margin="86,183,0,0" VerticalAlignment="Top" Width="406" FontWeight="Bold" FontSize="16" Height="36"/>
+        <Button Name="AdvanceBtn" Click="AdvanceBtn_Click" Content="ADVANCE" HorizontalAlignment="Left" Margin="86,248,0,0" VerticalAlignment="Top" Width="406" FontWeight="Bold" FontSize="16" Height="36"/>
+        <Button Name="NerdBtn" Click="NerdBtn_Click" Content="NERD" HorizontalAlignment="Left" Margin="86,308,0,0" VerticalAlignment="Top" Width="406" FontWeight="Bold" FontSize="16" Height="36"/>
+    </Grid>
+</Window>
